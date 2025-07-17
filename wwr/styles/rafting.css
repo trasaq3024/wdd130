@@ -1,0 +1,148 @@
+:root {
+  --primary-color: #1E90FF;     /* DodgerBlue */
+  --secondary-color: #32CD32;   /* LimeGreen */
+  --accent1-color: #FFD700;     /* Gold */
+  --accent2-color: #B22222;     /* Firebrick */
+  --heading-font: 'Merriweather', serif;
+  --body-font: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--accent2-color); /* Firebrick */
+  background-color: #fff;
+}
+
+header, main, footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
+  padding: 16px;
+}
+
+.logo img {
+  height: 80px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+}
+
+nav a {
+  color: var(--accent1-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 16px;
+  background-color: var(--accent1-color);
+  color: var(--secondary-color);
+  font-size: 2rem;
+  font-family: var(--heading-font);
+  opacity: 0.7;
+}
+
+article {
+  position: absolute;
+  bottom: 100px;
+  right: 40px;
+  background-color: rgba(30, 143, 255, 0.71);
+  color: white;
+  padding: 16px;
+  max-width: 700px;
+  font-family: var(--body-font);
+  opacity: 1;
+}
+
+.client-img {
+  float: right;
+  width: 125px;
+  margin-left: 16px;
+  border-radius: 8px;
+}
+
+/* Section Styling */
+section {
+  margin-top: 24px;
+}
+
+h2 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+  margin-bottom: 12px;
+}
+
+section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+section img {
+  width: 50%;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+section figcaption {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--accent2-color); /* Firebrick */
+}
+
+/* Footer Styling */
+footer {
+  text-align: left;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: var(--accent2-color);
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
+
+.social-media {
+  margin-top: 8px;
+}
+.social-media a img {
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
+  border-radius: 50%;
+}
