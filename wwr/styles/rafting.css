@@ -34,7 +34,7 @@ header {
 }
 
 .logo img {
-  height: 80px;
+  height: 150px;
 }
 
 nav ul {
@@ -141,8 +141,8 @@ footer {
   margin-top: 8px;
 }
 .social-media a img {
-  width: 32px;
-  height: 32px;
+  width: 82px;
+  height: 82px;
   margin: 0 8px;
   border-radius: 50%;
 }
