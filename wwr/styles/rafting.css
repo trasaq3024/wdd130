@@ -73,12 +73,12 @@ body {
 
 h1 {
   position: absolute;
-  top: 160px;
+  top: 50px;
   left: 0;
   width: 100%;
   text-align: center;
   padding: 16px;
-  background-color: var(--accent1-color);
+  background-color: none ;
   color: white;
   font-size: 2rem;
   font-family: var(--heading-font);
